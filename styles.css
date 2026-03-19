@@ -1,3 +1,123 @@
-* {
-  background-color: antiquewhite;
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AllContent {
+  background-color: whitesmoke;
+  width: 1424px;
+  height: 1024px;
+  box-sizing: border-box;
+  padding-left: 700px;
+  background-image: url("./image-green.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 700px 1030px;
+  padding-top: 120px;
+
+  padding-bottom: 120px;
+}
+
+.main-text {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 70px;
+  color: rgb(36, 34, 34);
+  font-family: Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: 550;
+  line-height: 1.4;
+}
+
+.second-text {
+  padding-top: 25px;
+  padding-left: 45px;
+  color: rgb(36, 34, 34);
+  font-family: Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+i {
+  font-style: italic;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: smaller;
+  color: steelblue;
+}
+
+.signup-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 60px;
+  padding: 24px;
+  padding-right: 115px;
+  margin-left: 45px;
+  padding-left: 48px;
+  margin-left: 0px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  padding-left: 45px;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 70px;
+  margin-top: 70px;
+}
+
+form input {
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  padding: 8px 10px;
+}
+
+.btn {
+  margin-top: 30px;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #61724a;
+  border-radius: 10px;
+  color: white;
+  font-size: medium;
+  font-weight: 200;
+  box-shadow: 0 2px 8px;
+  border-color: aliceblue;
+  margin-left: 45px;
+}
+
+.logIn {
+  margin-top: 30px;
+  padding-left: 45px;
+  font-size: large;
+}
+
+a:link {
+  text-decoration: none;
+  color: #61724a;
+  font-weight: 700;
+}
+
+input[type="password"] {
+  border: 1px solid rgb(180, 76, 76);
 }
